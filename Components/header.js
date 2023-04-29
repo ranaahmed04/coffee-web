@@ -60,33 +60,36 @@ class Header extends HTMLElement {
             text-decoration: underline;
           }
         
-          .navigation-bar a:focus {
+        .navigation-bar a:focus {
             background-color: #c56969;
             color: white;
             border-radius: 70px;
             text-decoration: underline;
           }
-        .home{
-            background-color: #c56969;
-            border-radius: 70px;
-        }
+        // .navigation-bar a:active {
+        //     background-color:  #c56969;
+        //     border-radius: 70px;
+        //     color: white;
+ 
+        //   }
+      
           
         </style>
         <header>
         <div class="header">
-        <div class="logo">
+         <div class="logo">
 
             <img src="images/logo.jpg" alt="logo image">
             <p class="brand-name"> Coffee Cafe </p>
            
-        </div>
+         </div>
 
-     
         <div class="navigation-bar">
-            <a href="#home" class="home">Home</a>
+            <a href="Home-page.html" class="home">Home</a>
             <a href="Menu.html">Menu</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>   
+        </div>
         </div>
         </header>
         `;
