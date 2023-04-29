@@ -1,0 +1,131 @@
+
+.header{
+    display: grid;
+    padding: 10px 20px 0px;
+    grid-template-columns:  30% 70%;
+    border-radius: 80px;
+    background-color: #E5D3B3;
+}
+.logo{
+    display: grid;
+    grid-template-columns:  30% 70%;
+    padding: 10px 10px 0px;
+
+
+
+}
+.logo img{
+    float: left;
+    margin-left: 20px;
+    border-radius: 80px;
+    width: 70px;
+    height: 70px;
+}
+
+.brand-name {
+    color: rgb(149, 44, 44);
+    margin-right: 80px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-style: italic;
+
+
+}
+
+.navigation-bar{
+   margin-left: 400px;
+    padding: 20px;
+    float: right;
+    overflow: hidden;
+}
+.navigation-bar a{
+    float: left;
+    text-align: center;
+    padding: 19px 22px;
+    text-decoration:solid;
+    color: rgb(149, 44, 44);
+    font-size: 23px;
+    font-weight: bold;
+}
+.navigation-bar a:hover {
+    background-color: #dcc2c2;
+    border-radius: 70px;
+    text-decoration: underline;
+  }
+
+  .navigation-bar a:focus {
+    background-color: #c56969;
+    color: white;
+    border-radius: 70px;
+    text-decoration: underline;
+  }
+.home{
+    background-color: #c56969;
+    border-radius: 70px;
+}
+  
+.content{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+ .text h1{
+    padding: 20px;
+    
+    font-style: italic;
+    color: rgb(149, 44, 44);
+
+ }
+ .text button{
+    border-radius: 80px;
+    padding: 20px;
+    background-color: #E5D3B3;
+    color: rgb(149, 44, 44);
+    font-size: 20px;
+    border: none; 
+    margin-left: 20px;
+
+ }
+ .imagesflex{
+    display: flex;
+    align-items:stretch;
+    justify-content:flex-start;
+
+ }
+ .imagesflex img{
+    padding: 10px;
+    border-radius: 80px;
+    width: 240px;
+    height: 450px;
+ }
+.Terms{
+    text-align: justify;
+    list-style-position: outside;
+    background-color: #E5D3B3;
+    color: rgb(149, 44, 44);
+   
+ }
+ .Terms ul{
+    margin-left: 30%;
+ }
+ .Terms h2{
+    text-align: center;
+    padding: 10px;
+ }
+ .conditions{
+    background-color: #E5D3B3;
+    color: rgb(149, 44, 44);
+    text-align: center;
+
+ }
+ .coffcafe img{
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    gap: 20px;
+ }
+ footer{
+    background-color: #E5D3B3;
+ }
