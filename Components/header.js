@@ -87,8 +87,8 @@ class Header extends HTMLElement {
         <div class="navigation-bar">
             <a href="Home-page.html" class="home">Home</a>
             <a href="Menu.html">Menu</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>   
+            <a href="About-page.html">About</a>
+            <a href="contact.html">Contact</a>   
         </div>
         </div>
         </header>

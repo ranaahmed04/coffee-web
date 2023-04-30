@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About us page</title>
+    <script src="Components/header.js" type="text/javascript" defer></script>
+    <script src="Components/footer.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <header-component></header-component>
+    <br>
+    <div class="back-image">
+        <div class="imge">
+            <img src="images/background.png" alt="back-image">
+            <div class="par">
+                We believe a cup of coffee is one of the most important, simple pleasure in life 
+            </div>
+        </div>
+    </div>
+    <div class="forrm">
+        <div>
+            <h1> Contact Us</h1>
+        </div>
+        <div>
+            <form class="contact-form">
+                <label for="firstName"> First Name</label><br>
+                <input type="text" placeholder="Enter your first name" id="firstName" onkeyup="Validate_fname()"/>
+                <span id="first-error"></span><br><br>
+
+                <label for="lastName"> Last Name</label><br>
+                <input type="text" placeholder="Enter your last name" id="lastName" onkeyup="Validate_lname()"/>
+                <span id="last-error"></span><br><br>
+
+                <label for="email"> E-mail</label><br>
+                <input type="email" placeholder="Enter your email" id="email" onkeyup="Validate_mail()"/>
+                <span id="email-error"></span><br><br>
+                
+                <label for="phone"> Mobile Number</label><br>
+                <input type="tel" placeholder="Enter your mobile" id="phone" onkeyup="Validate_phone()"/>
+                <span id="phone-error"></span><br><br>
+
+                <label for="male"> Gender</label><br>
+                <input type="radio" id="male" name="gender" value="male"> <label for="male"> Male</label>
+                <input type="radio" id="female" name="gender" value="female"> <label for="female"> Female</label>
+                <br><br>
+
+                <textarea id="question" rows="10" placeholder="write your message here" onkeyup="Validate_message()""></textarea><br>
+                <span id="text-error"></span>
+                <br><br>
+
+                <button id="submit" onclick="return validateform()">Send contact</button>
+                <span id="submit-error"></span>
+
+            
+
+
+            </form>
+        </div>
+
+    </div>
+     
+    </div>   
+     <footer-component></footer-component>
+    </div>
+    <script src="contact.js">
+
+    </script>
+
+</body>
+
+</html>
